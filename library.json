@@ -1,0 +1,29 @@
+{
+  "name": "CMSIS-NN",
+  "description": "CMSIS-NN library compatible with Arduino_Core_STM32",
+  "keywords": "cmsis,cmsis-nn",
+  "authors": [
+    {
+      "name": "Arm Limited"
+    },
+    {
+      "name": "Maximilian Gerhardt",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxgerhardt/CMSIS-NN-ArduinoSTM32.git"
+  },
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "frameworks": "arduino",
+  "platforms": "ststm32",
+  "examples": [
+    "[Ee]xamples/*/*.cpp",
+    "[Ee]xamples/*/*.ino"
+  ],
+  "dependencies": {
+	"CMSIS DSP": "^1.0.0"
+  }
+}
