@@ -25,7 +25,7 @@ lib_deps =
 	CMSIS-NN=https://github.com/maxgerhardt/CMSIS-NN-ArduinoSTM32.git
 
 ; target a STM32L476rg chip
-[env:nucleo_f103rb]
+[env:nucleo_l476rg]
 platform = ststm32
 board = nucleo_l476rg
 framework = arduino
